@@ -8,24 +8,19 @@ Requirements:
 
 ```sh
 sudo apt install git dkms joystick
-git clone https://github.com/gotzl/hid-fanatecff.git
-git clone https://github.com/sigonze/hid-fanatecff-dkms.git
 ```
 
 Installation:
 
 ```sh
-sudo cp -R hid-fanatecff /usr/src/hid-fanatecff-0.1.0
-sudo cp hid-fanatecff-dkms/dkms.conf /usr/src/hid-fanatecff-0.1.0
-sudo dkms add hid-fanatecff/0.1.0
-sudo dkms build hid-fanatecff/0.1.0
-sudo dkms install hid-fanatecff/0.1.0
+git clone https://github.com/sigonze/hid-fanatecff-dkms.git
+cd hid-fanatecff-dkms
+git submodule init
+git submodule update
+sudo ./hid-fanatec.sh install
 ```
 
 ## TODO
 
 * Install udev rules automatically
 * Better version management
-* Add dependency to gotzl/hid-fanatecff.git to avoid double git clone
-* Add a script to automate everything?
-
