@@ -1,11 +1,13 @@
 # hid-fanatecff-dkms
 
-dkms for hid-fanatecff for ubuntu
+dkms for hid-fanatecff
 
 ## Usage
 
 Requirements:
+`git`, `dkms` and `evdev-joystick`
 
+For Ubuntu, following packages are needed:
 ```sh
 sudo apt install git dkms joystick
 ```
@@ -34,7 +36,5 @@ sudo ./hid-fanatec.sh uninstall
 
 ## TODO
 
-* Install udev rules automatically
 * Better version support
 * Update management to be clarified
-* Procedure for other distro than Ubuntu (should only affect Requirements)
