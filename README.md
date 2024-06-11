@@ -10,13 +10,18 @@ Requirements:
 sudo apt install git dkms joystick
 ```
 
-Install:
+Initialization:
 
 ```sh
 git clone https://github.com/sigonze/hid-fanatecff-dkms.git
 cd hid-fanatecff-dkms
 git submodule init
 git submodule update
+```
+
+Install:
+
+```sh
 sudo ./hid-fanatec.sh install
 ```
 
