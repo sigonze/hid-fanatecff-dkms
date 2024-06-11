@@ -19,6 +19,7 @@ sudo cp -R hid-fanatecff /usr/src/hid-fanatecff-0.1.0
 sudo cp hid-fanatecff-dkms/dkms.conf /usr/src/hid-fanatecff-0.1.0
 sudo dkms add hid-fanatecff/0.1.0
 sudo dkms build hid-fanatecff/0.1.0
+sudo dkms install hid-fanatecff/0.1.0
 ```
 
 ## TODO
