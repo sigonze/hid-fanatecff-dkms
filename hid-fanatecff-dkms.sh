@@ -7,7 +7,7 @@ ACTION="$1"
 SRC_DIR=$(dirname $0)
 
 usage() {
-    echo "Usage: sudo $0 install/uninstall"
+    echo "Usage: sudo $0 install/remove"
     exit
 }
 

@@ -24,13 +24,13 @@ git submodule update
 Install:
 
 ```sh
-sudo ./hid-fanatec.sh install
+sudo ./hid-fanatecff-dkms.sh install
 ```
 
 Uninstall:
 
 ```sh
-sudo ./hid-fanatec.sh uninstall
+sudo ./hid-fanatecff-dkms.sh remove
 ```
 
 
