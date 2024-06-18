@@ -1,6 +1,6 @@
 # hid-fanatecff-dkms
 
-dkms for hid-fanatecff
+dkms for [hid-fanatecff](https://github.com/gotzl/hid-fanatecff)
 
 ## Usage
 
@@ -8,11 +8,18 @@ Requirements:
 To use the current script, these commands have to be installed: `git`, `dkms` and `evdev-joystick`
 
 
-For Ubuntu, they can be installed this way:
+For Ubuntu:
 
 ```sh
 sudo apt install git dkms joystick
 ```
+
+For Fedora:
+
+```sh
+sudo dnf install git kernel-devel dkms linuxconsoletools
+```
+
 
 Initialization:
 
